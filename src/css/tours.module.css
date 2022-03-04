@@ -1,0 +1,68 @@
+.otoSanContainer {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background: #E0E0E0;
+    align-items: center;
+    padding: 60px;
+}
+
+.heading {
+    border-bottom: 5px solid #49a6e9;
+}
+
+.tourCard {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    width: 80%;
+    background: white;
+    border-radius: 3px;
+    margin-bottom: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+}
+
+.image {
+    display: block;
+}
+
+.tourDetails {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.buttonContainer {
+    display: flex;
+    flex: 1;
+    padding: 10px;
+    justify-content: center;
+}
+
+.button {
+    padding: 10px 20px 10px 20px;
+    letter-spacing: 2px;
+    color: red;
+    border-radius: 5px;
+    border-color: red;
+    background-color: white;
+    font-size: 15px;
+}
+
+.refreshButton {
+    padding: 10px 20px 10px 20px;
+    letter-spacing: 2px;
+    color: #49A6E9;
+    border-radius: 5px;
+    border-color: #49A6E9;
+    background-color: white;
+    font-size: 15px;
+}
+
+.price {
+    border-radius: 5px;
+    background: #49a6e922;
+    padding: 5px;
+    color: #44a4ff;
+    font-weight: bold;
+}

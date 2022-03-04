@@ -1,0 +1,47 @@
+.otoSanContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    background: #e7eef3;
+    color: #003349;
+}
+
+.formContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+input {
+    font-size: 25px;
+    border: 0;
+    width: 4em;
+    border-radius: 2px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+button {
+    padding: 8px 10px 8px 10px;
+    font-size: 15px;
+    background: #239df5;
+    border: 0;
+    border-radius: 4px;
+    margin-left: 5px;
+    color: white;
+}
+
+p {
+    white-space: pre-wrap;
+    width: 60%;
+    color: #656666;
+    text-align: center;
+    line-height: 1.5
+}
+
